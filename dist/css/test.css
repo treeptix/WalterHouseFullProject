@@ -1,0 +1,67 @@
+.info-menu-con {
+  max-width: 1564px;
+  min-height: 280px;
+  background: #FFF;
+  padding-top: 54px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.info-menu-con .top-info-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 49px;
+  border-bottom: 1px solid lightgray;
+}
+.info-menu-con .top-info-menu .logo-info-menu {
+  margin-left: -6px;
+}
+.info-menu-con .top-info-menu .about-top-info {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 16.68px;
+  text-transform: uppercase;
+}
+.info-menu-con .bot-info-menu {
+  padding-left: 0px;
+  display: flex;
+  margin-top: 33px;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  justify-content: space-between;
+}
+.info-menu-con .bot-info-menu .logo-info-menu {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+.info-menu-con .bot-info-menu .map-menu img {
+  margin-right: 30px;
+  margin-top: 1px;
+}
+.info-menu-con .bot-info-menu .time-menu {
+  margin-top: 1px;
+}
+.info-menu-con .bot-info-menu .time-menu img {
+  margin-right: 30px;
+  margin-top: 1px;
+}
+.info-menu-con .bot-info-menu .email-menu {
+  margin-top: -1px;
+}
+.info-menu-con .bot-info-menu .email-menu img {
+  margin-right: 34px;
+  margin-top: 0px;
+}
+.info-menu-con .bot-info-menu .phone-menu img {
+  margin-right: 38px;
+  margin-top: 0px;
+}

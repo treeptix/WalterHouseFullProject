@@ -1,0 +1,53 @@
+.left-text-body {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    z-index: 20;
+
+    .text-90grad-container {
+        margin-top: 16px; 
+        margin-left: -72px;
+
+        .text-90grad {
+            display: flex;
+            width: 322px;
+            height: 211px;
+            transform: rotate(-90deg);
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+
+            color: rgba(255, 255, 255, 0.50);
+            text-align: center;
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 8.34px;
+            text-transform: uppercase;
+        }
+    }
+
+    .line-container {
+        margin-left: 89px;
+        margin-top: 120px;
+    }
+
+    .logo-container-leftText {
+        margin-left: 77px;
+        margin-top: 79px;
+        display: flex;
+        flex-direction: column;
+        width: 25px;
+        height: 199px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1800px) {
+    .left-text-body{
+        display: none;
+    }
+} 

@@ -1,0 +1,136 @@
+.container-1 {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../img/page5/bg.png);
+  background-size: 100% 100%;
+  padding-top: 135px;
+  display: flex;
+}
+.container-1 .steps {
+  margin-left: 123px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 31px;
+}
+.container-1 .main-con {
+  margin-left: 189px;
+}
+.container-1 .main-con .icon-con {
+  display: flex;
+  margin-bottom: 43px;
+}
+.container-1 .main-con .icon-con .img-con {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-1 .main-con .icon-con .name-icon {
+  width: 296px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 41px;
+  margin-top: -4px;
+}
+.container-1 .main-con .icon-con .about-icon {
+  width: 471px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-left: 94px;
+  margin-top: 18px;
+}
+.container-1 .main-con .icon-con .icon1 {
+  height: 94px;
+}
+.container-1 .main-con .icon-con-2 {
+  margin-bottom: 50px;
+}
+.container-1 .main-con .icon-con-6 {
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .container-1 {
+    width: 1440px;
+    height: 810px;
+    background-image: url(../img/page5/bg.png);
+    background-size: 100% 100%;
+    padding-top: 80px;
+    display: flex;
+  }
+  .container-1 .steps {
+    margin-left: 50px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 31px;
+  }
+  .container-1 .main-con {
+    margin-left: 70px;
+  }
+  .container-1 .main-con .icon-con {
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px;
+  }
+  .container-1 .main-con .icon-con .img-con {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-1 .main-con .icon-con .name-icon {
+    width: 296px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 41px;
+    margin-top: -4px;
+  }
+  .container-1 .main-con .icon-con .about-icon {
+    width: 471px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 94px;
+    margin-top: 18px;
+  }
+  .container-1 .main-con .icon-con .icon1 {
+    height: 94px;
+  }
+  .container-1 .main-con .icon-con-2 {
+    margin-bottom: 50px;
+  }
+  .container-1 .main-con .icon-con-6 {
+    align-items: center;
+  }
+}

@@ -1,0 +1,89 @@
+.info-menu-con {
+    max-width: 1564px;
+    min-height: 280px;
+    background: #FFF;
+    padding-top: 54px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .top-info-menu {
+        display: flex;
+        // width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 49px;
+        border-bottom: 1px solid lightgray;
+
+        .logo-info-menu {
+            margin-left: -6px;
+
+        }
+
+        .about-top-info {
+            color: #000;
+            font-family: 'Roboto';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: 16.68px;
+            text-transform: uppercase;
+
+
+        }
+
+        .arrow2-info-menu {
+
+        }
+    }
+
+    .bot-info-menu {
+        padding-left: 0px;
+        display: flex;
+        margin-top: 33px;
+        color: #000;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        // width: 100%;
+        justify-content: space-between;
+        
+        .logo-info-menu{
+            display: flex;
+            align-items: center;
+            width: max-content;
+        }
+
+        .map-menu{
+            img{
+                margin-right: 30px;
+                margin-top: 1px;
+            }
+        }
+
+        .time-menu{
+            margin-top: 1px;
+            img{
+                margin-right: 30px;
+                margin-top: 1px;
+            }
+        }
+
+        .email-menu{
+            margin-top: -1px;
+            img{
+                margin-right: 34px;
+                margin-top: 0px;
+            }
+        }
+
+        .phone-menu{
+            img{
+                margin-right: 38px;
+                margin-top: 0px;
+            }
+        }
+    }
+}
